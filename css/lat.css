@@ -7,51 +7,43 @@ body{
 }
 header{
     /* background-color: deepskyblue; */
-    height: 80px;
-    position: fixed;
     z-index: 1;
+    position: fixed;
     width: 100%;
     /* line-height: 80px; */
 }
 .secondary{
-    background-color: deepskyblue;
+    background-color: #96ba5a;
     box-shadow: 0px 0px 17px 0px;
     transition: all 0.5s ease-in;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 ul{
     list-style: none;
 }
 ul li{
     display: inline-block;
+} 
+.navbar{
+    height: 65px;
 }
-header nav{
-    margin-top: -40px;
-    float: right;
-}
-header nav ul li a{
-    padding-right: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 30px;
-    color: white;
-    transition: all 0.5s;
-}
-header nav ul li a:hover{
-    text-decoration: none;
-    color: red;
-}
-.logo img{
-    height: 50px;
-    width: 50px;
-}
-.logo{
-    color: white;
-    margin-top: 21px;
-    font-family: 'Charm', cursive;
-}
-header a:hover{
-    text-decoration: none;
-    color: red;
+.navbar-nav{
+    margin-left: 75%;
+} 
+@media (max-width: 800px) {
+    .navbar-nav{
+        margin-left: 0px;
+    } 
+    .navbar{
+        height: auto;
+    }
+    header{
+        /* background-color: deepskyblue; */
+        position: relative;
+        width: 100%;
+        background-color: deepskyblue;
+        /* line-height: 80px; */
+    }
 }
 .img1{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(..//img/foto1.jpg);
@@ -148,56 +140,3 @@ header a:hover{
     line-height: 24px;
     letter-spacing: 0.025em;
 }
-.intro-block{
-    position: relative;
-    background: #f7f7f7;
-    margin: 50px 0px 0px;
-    text-align: center;
-    padding: 70px 25px 40px;
-}
-.intro-block:hover, .intro-block.active{
-    background: #0AAbE1;
-}
-.intro-block:hover{
-    transition: .6s ease;
-    -webkit-transition: .6s ease;
-    -moz-transition: .6s ease;
-    -o-transition: .6s ease;
-    -ms-transition: .6s ease;
-}
-.intro-block .intro-icon{
-    position: absolute;
-    top: -11px;
-    left: 50%;
-    margin-left: -31px;    
-}
-.intro-block .fab{
-    width: 63px;
-    height: 63px;
-    font-size: 30px;
-    color: white;
-    line-height: 2;
-    background: deepskyblue;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 10px #cceef9;
-}
-.intro-block:hover .fab, .intro-block.active .fab{
-    background: white;
-    color: deepskyblue;
-    box-shadow: 0px 0px 0px 10px deepskyblue;
-}
-.intro-block h3{
-    font-size: 18px;
-    color: deepskyblue;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-.intro-block p{
-    color: #505050;
-}
-.intro-block:hover h3, .intro-block:hover p{
-    color: #f6f6f6;
-}
-
-
