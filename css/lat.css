@@ -27,13 +27,13 @@ ul li{
 .navbar{
     height: 65px;
 }
-.navbar-nav{
+/* .navbar-nav{
     margin-left: 75%;
-} 
+}  */
 @media (max-width: 800px) {
-    .navbar-nav{
+    /* .navbar-nav{
         margin-left: 0px;
-    } 
+    }  */
     .navbar{
         height: auto;
     }
