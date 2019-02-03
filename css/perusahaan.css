@@ -133,7 +133,7 @@ body{
     border-radius: 3px;
 }
 .tentang a.btn-full:hover{
-    background-color: darkorange;
+    opacity: 0.8;
 }
 /* android mobile */
 @media (max-width: 767.98px) { 
@@ -209,10 +209,5 @@ body{
     .about{
         margin-top: 80px;
         
-    }
-    .tentang{
-        margin-top: 0px;
-        margin-left: 5pxpx;
-    }
-    
+    }  
 }
