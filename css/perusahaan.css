@@ -7,8 +7,9 @@ body{
 }
 /* Navbar */
 .navbar-brand{
-    font-family: Karla;
+    font-family: Viga;
     font-size: 32px;
+    opacity: 1;
 }
 .tombol{
     background-color: white;
@@ -17,7 +18,7 @@ body{
     border-radius: 30px;
     color:#4BC1DD;
     width: 100%;
-    font-family: Viga;
+    font-family: Karla;
 }
 .tombol1{
     background-color: #4BC1DD;
@@ -25,19 +26,59 @@ body{
     border-radius: 30px;
     color: white;
     width: 100%;
-    font-family: Viga;
-}
-/* jumbotron */
-.jumbotron{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url(../img/jum.jpg);
-    background-size: 100% 100%;
-    height: 550px;
+    font-family: Karla;
 }
 .secondary{
     background-color: #84B154;;
     box-shadow: 0px 0px 17px 0px;
     transition: all 0.5s ease-in;
 }
+/* jumbotron */
+.jumbotron{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(../img/jum.jpg);
+    background-size: 100% 100%;
+    height: 550px;
+}
+.kata{
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+.kata h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.kata span{
+    color: #96BA5A;
+}
+.kata a.btn-half{
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.5s ease-in;
+    font-family: Roboto;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+}
+.kata a.btn-half:hover{
+    background-color: dodgerblue;
+}
+.kata a.btn-full{
+    background-color: orange;
+    color: white;
+    transition: 0.5s ease-in;
+    font-family: Roboto;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+}
+.kata a.btn-full:hover{
+    background-color: darkorange;
+}
+
 /* info panel */
 .info-panel{
     box-shadow: 0 3px 20px rgba(0,0,0,0.5);
@@ -89,11 +130,17 @@ body{
         position: fixed;
         width: 100%;
     }
+    .navbar-brand{
+        font-family: Viga;
+        font-size: 32px;
+        opacity: 0.9;
+    }
     .nav-link{
         text-transform: uppercase;
         margin-right: 30px;
         color: white;
-        font-family: Viga;
+        font-family: Karla;
+        opacity: 0.9;
     }
     .nav-link:hover::after{
         content: '';
@@ -117,7 +164,7 @@ body{
         margin-left: 10px;
         color:#4BC1DD;
         width: 100px;
-        font-family: Viga;
+        font-family: Karla;
     }
     .tombol1{
         background-color: #4BC1DD;
@@ -126,8 +173,15 @@ body{
         margin-left: 10px;
         color: white;
         width: 100px;
-        font-family: Viga;
+        font-family: Karla;
     }
     
+    /* jumbitron */
+    .kata a.btn-full{
+        width: 200px;
+    }
+    .kata a.btn-half{
+        width: 200px;
+    }
     
 }
