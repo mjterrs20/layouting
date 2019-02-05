@@ -79,6 +79,10 @@ body{
     background-color: darkorange;
 }
 
+.awal{
+    margin-bottom: 50px;
+    width: 100%;
+}
 /* info panel */
 .info-panel{
     box-shadow: 0 3px 20px rgba(0,0,0,0.5);
@@ -135,12 +139,53 @@ body{
 .tentang a.btn-full:hover{
     opacity: 0.8;
 }
+
+/* card */
+.event{
+    margin-top: 20px;
+    background-color: #f2f3f4;
+    height: 500px;
+    padding: 60px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.event-teks a.btn-full{
+    background-color: #4BC1DD;
+    color: white;
+    transition: 0.5s ease-in;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+}
+.event-teks a.btn-full:hover{
+    opacity: 0.8;
+}
+.card{
+    border-radius: 12px;
+    height: 400px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.3);
+}
+.card img{
+    height: 180px;
+    width: 100%;
+}
+
 /* android mobile */
 @media (max-width: 767.98px) { 
     header{
         position: relative;
         width: 100%;
         background-color: #84B154;
+    }
+    .card{
+        border-radius: 12px;
+        height: 300px;
+        box-shadow: 0 3px 20px rgba(0,0,0,0.3);
+    }
+    .card img{
+        height: 100px;
+        width: relative;
     }
  }
 
